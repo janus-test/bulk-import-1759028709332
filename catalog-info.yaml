@@ -1,9 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: bulk-import-1759028709332
+  name: bulk-import-1759028709332-updated
   annotations:
     github.com/project-slug: janus-test/bulk-import-1759028709332
+  labels:
+    bulkimport1: test1
+    bulkimport2: test2
 spec:
   type: other
   lifecycle: unknown
